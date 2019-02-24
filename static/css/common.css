@@ -1,0 +1,11 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    /* VARIABLES */
+    --ch-darkblue: blue;
+
+    font-family: "Work Sans", "San Francisco", "Arial", sans-serif;
+}

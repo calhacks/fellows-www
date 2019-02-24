@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section id="main">
+
+    <h1 id="title">{{ .Title }}</h1>
+    <div>
+        <article id="content">
+            {{ .Content }}
+        </article>
+    </div>
+
+</section>
+<aside id="meta">
+
+    <div>
+        {{ with .PrevInSection }}
+        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+        {{ with .NextInSection }}
+        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
+        {{ end }}
+    </div>
+
+</aside>
+{{ end }}
