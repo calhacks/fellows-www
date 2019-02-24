@@ -1,6 +1,6 @@
 # Cal Hacks Fellowship Site
 
-This repository contains the source for the website for [Cal Hacks Fellowship](fellows.calhacks.io), a spring-semester accelerator program hosted by Cal Hacks at UC Berkeley.
+This repository contains the source for the website for [Cal Hacks Fellowship](https://fellows.calhacks.io), a spring-semester accelerator program hosted by Cal Hacks at UC Berkeley.
 
 The site is currently under active development.
 

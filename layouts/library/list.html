@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<main aria-role="main">
+
+    <section class="hero">
+        <h1>Fellowship Library.</h1>
+        <div class="subtitle">
+            <p>All material we share here are licensed under the Creative Commons 4.0 license. Please feel free to take these ideas, words, and thoughts and create something great.</p>
+        </div>
+    </section>
+
+    <section>
+        ... more to come ...
+    </section>
+
+    <ul>
+        <!-- Ranges through content/posts/*.md -->
+        {{ range .Pages }}
+        <li>
+            <a href="{{.Permalink}}">{{.Title}}</a>
+        </li>
+        {{ end }}
+    </ul>
+
+</main>
+
+{{ end }}
+
+
