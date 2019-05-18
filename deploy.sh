@@ -2,5 +2,5 @@
 hugo
 
 # deploy
-surge -p ./public/ --domain fellows.calhacks.io
+surge -p ./public/ --domain fellowship.calhacks.io
 
